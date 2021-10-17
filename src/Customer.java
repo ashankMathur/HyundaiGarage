@@ -68,8 +68,8 @@ public class Customer {
         this.customerEmailId = customerEmailId;
     }
 
-    public HyundaiGarageService addService(){
-        //TODO Implement this
-        return null;
+    public void addService(HyundaiGarageService service){
+        servicesList.add(service);
+        System.out.println("Service Added");
     }
 }

@@ -3,11 +3,13 @@ public class HyundaiGarageService {
     private Long serviceId;
     protected double servicePrice;
     private Long customerId;
+    private String serviceName;
 
-    public HyundaiGarageService(Long serviceId, double servicePrice, Long customerId) {
+    public HyundaiGarageService(Long serviceId, double servicePrice, Long customerId, String serviceName) {
         this.serviceId = serviceId;
         this.servicePrice = servicePrice;
         this.customerId = customerId;
+        this.serviceName = serviceName;
     }
 
     public void carWashing(){

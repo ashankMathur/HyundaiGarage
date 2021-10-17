@@ -4,9 +4,10 @@ public class VehicleModification extends HyundaiGarageService {
 
     private List<Parts> modifyPartList;
 
-    public VehicleModification(Long serviceId, double servicePrice, Long customerId) {
-        super(serviceId, servicePrice, customerId);
+    public VehicleModification(Long serviceId, double servicePrice, Long customerId, String serviceName) {
+        super(serviceId, servicePrice, customerId, serviceName);
     }
+
 
     @Override
     public void carWashing() {

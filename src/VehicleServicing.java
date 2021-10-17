@@ -1,7 +1,8 @@
 public class VehicleServicing extends HyundaiGarageService {
 
-    public VehicleServicing(Long serviceId, double servicePrice, Long customerId) {
-        super(serviceId, servicePrice, customerId);
+
+    public VehicleServicing(Long serviceId, double servicePrice, Long customerId, String serviceName) {
+        super(serviceId, servicePrice, customerId, serviceName);
     }
 
     public void engineOiling(){
