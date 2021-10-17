@@ -1,7 +1,8 @@
 public class VehicleDentingPainting extends HyundaiGarageService {
 
-    public VehicleDentingPainting(Long serviceId, double servicePrice, Long customerId) {
-        super(serviceId, servicePrice, customerId);
+
+    public VehicleDentingPainting(Long serviceId, double servicePrice, Long customerId, String serviceName) {
+        super(serviceId, servicePrice, customerId, serviceName);
     }
 
     @Override
