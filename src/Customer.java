@@ -2,16 +2,16 @@ import java.util.List;
 
 public class Customer {
 
-    private Long customerId;
+    private long customerId;
     private String customerName;
     private Car customerCar;
     private String customerVehicleNumber;
-    private Long customerPhoneNumber;
+    private long customerPhoneNumber;
     private String customerEmailId;
     private List<HyundaiGarageService> servicesList;
     private double customerBill;
 
-    public Customer(Long customerId, String customerName, Car customerCar, String customerVehicleNumber, Long customerPhoneNumber, String customerEmailId) {
+    public Customer(long customerId, String customerName, Car customerCar, String customerVehicleNumber, long customerPhoneNumber, String customerEmailId) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.customerCar = customerCar;
@@ -20,7 +20,7 @@ public class Customer {
         this.customerEmailId = customerEmailId;
     }
 
-    public Long getCustomerId() {
+    public long getCustomerId() {
         return customerId;
     }
 
@@ -52,7 +52,7 @@ public class Customer {
         this.customerVehicleNumber = customerVehicleNumber;
     }
 
-    public Long getCustomerPhoneNumber() {
+    public long getCustomerPhoneNumber() {
         return customerPhoneNumber;
     }
 

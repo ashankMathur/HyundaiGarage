@@ -4,8 +4,8 @@ public class VehicleRepair extends HyundaiGarageService {
 
     private List<Parts> partList;
 
-    public VehicleRepair(Long serviceId, double servicePrice, Long customerId, String serviceName) {
-        super(serviceId, servicePrice, customerId, serviceName);
+    public VehicleRepair(long serviceId, double servicePrice, long customerId, String serviceName, long empId) {
+        super(serviceId, servicePrice, customerId, serviceName, empId);
     }
 
 

@@ -1,22 +1,25 @@
 public class HyundaiGarageService {
 
-    private Long serviceId;
+    private long serviceId;
     protected double servicePrice;
-    private Long customerId;
+    private long customerId;
     private String serviceName;
+    private long empId;
 
-    public HyundaiGarageService(Long serviceId, double servicePrice, Long customerId, String serviceName) {
+
+    public HyundaiGarageService(long serviceId, double servicePrice, long customerId, String serviceName, long empId) {
         this.serviceId = serviceId;
         this.servicePrice = servicePrice;
         this.customerId = customerId;
         this.serviceName = serviceName;
+        this.empId = empId;
     }
 
     public void carWashing(){
         System.out.println("Car is washed");
     }
 
-    public Long getServiceId() {
+    public long getServiceId() {
         return serviceId;
     }
 
@@ -32,11 +35,20 @@ public class HyundaiGarageService {
         this.servicePrice = servicePrice;
     }
 
-    public Long getCustomerId() {
+    public long getCustomerId() {
         return customerId;
     }
 
     public void setCustomerId(Long customerId) {
         this.customerId = customerId;
+    }
+
+
+    public long getEmpId() {
+        return empId;
+    }
+
+    public void setEmpId(long empId) {
+        this.empId = empId;
     }
 }

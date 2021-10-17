@@ -2,14 +2,14 @@ import java.util.Date;
 
 public class Parts {
 
-    private Long partId;
+    private long partId;
     private Car car;
     private String partName;
     private double price;
     private Date dateOdPurchase;
     private int quantity;
 
-    public Parts(Long partId, Car car, String partName, Date dateOdPurchase, int quantity, double price) {
+    public Parts(long partId, Car car, String partName, Date dateOdPurchase, int quantity, double price) {
         this.partId = partId;
         this.car = car;
         this.partName = partName;
@@ -18,7 +18,7 @@ public class Parts {
         this.price = price;
     }
 
-    public Long getPartId() {
+    public long getPartId() {
         return partId;
     }
 
